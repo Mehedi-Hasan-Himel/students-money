@@ -76,7 +76,7 @@ const hostel = [
   {
     student: `Dokan`,
     HouseRent: 0,
-    Meal: 4000,
+    Meal: 2500,
     Wifi: 0,
     MealDay: 0,
   },
@@ -285,14 +285,14 @@ console.log(`Rohan Meal Money = `, RohanMealCount); //     MealDay: 16,
 
 console.log(`Room 06`);
 
-let MonirMealCount = perMealPrice * 23;
-console.log(`Monir Meal Money = `, MonirMealCount); //     MealDay: 23,
+let MonirMealCount = perMealPrice * 16;
+console.log(`Monir Meal Money = `, MonirMealCount); //     MealDay: 16,
 
 let RifatMealCount = perMealPrice * 11;
 console.log(`Rifat Meal Money = `, RifatMealCount); //     MealDay: 11,
 
-let RudraMealCount = perMealPrice * 7;
-console.log(`Rudra Meal Money = `, RudraMealCount); //     MealDay: 7,
+let RudraMealCount = perMealPrice * 16;
+console.log(`Rudra Meal Money = `, RudraMealCount); //     MealDay: 16,
 
 console.log(`Room 07`);
 
@@ -312,45 +312,3 @@ console.log(`Alamgir Meal Money = `, AlamgirMealCount); //     MealDay: 16,
 
 let ProlithMealCount = perMealPrice * 7;
 console.log(`Prolith Meal Money = `, ProlithMealCount); //     MealDay: 7,
-
-console.log(`Room 09`);
-
-let KhaledMealCount = perMealPrice * 23;
-console.log(`Khaled Meal Money = `, KhaledMealCount); //     MealDay: 23,
-
-console.log(`Room 10`);
-
-let KamrulMealCount = perMealPrice * 15;
-console.log(`Kamrul Meal Money = `, KamrulMealCount); //     MealDay: 15,
-
-let MuzahidMealCount = perMealPrice * 19;
-console.log(`Muzahid Meal Money = `, MuzahidMealCount); //     MealDay: 19,
-
-let total =
-  EasinMealCount +
-  Limon2MealCount +
-  ToufiqMealCount +
-  OnikMealCount +
-  FahimMealCount +
-  BonyMealCount +
-  Limon1MealCount +
-  SadmanMealCount +
-  HimelMealCount +
-  TamimMealCount +
-  MussarafMealCount +
-  RohanMealCount +
-  MonirMealCount +
-  RifatMealCount +
-  RudraMealCount +
-  InarulMealCount +
-  HimuMealCount +
-  SiamMealCount +
-  AlamgirMealCount +
-  ProlithMealCount +
-  KhaledMealCount +
-  KamrulMealCount +
-  MuzahidMealCount;
-
-console.log(`Total Student money = `, total);
-
-console.log(`Total`, totalMealOfHostel);
